@@ -1,0 +1,828 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1920</width>
+    <height>1080</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <property name="sizePolicy">
+    <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+     <horstretch>0</horstretch>
+     <verstretch>0</verstretch>
+    </sizepolicy>
+   </property>
+   <property name="autoFillBackground">
+    <bool>false</bool>
+   </property>
+   <widget class="QWidget" name="widgetDataMesjid" native="true">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>10</y>
+      <width>1320</width>
+      <height>206</height>
+     </rect>
+    </property>
+    <widget class="QLabel" name="labelDataMesjid">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>0</y>
+       <width>1320</width>
+       <height>206</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="pixmap">
+      <pixmap>../../proyek/zamzam/assets/background-dasar-mesjid.png</pixmap>
+     </property>
+    </widget>
+    <widget class="QLabel" name="labelMesjid">
+     <property name="geometry">
+      <rect>
+       <x>25</x>
+       <y>2</y>
+       <width>1253</width>
+       <height>200</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="pixmap">
+      <pixmap>../../proyek/zamzam/assets/background-mesjid.png</pixmap>
+     </property>
+    </widget>
+    <widget class="QLabel" name="labelNamaMesjid">
+     <property name="geometry">
+      <rect>
+       <x>246</x>
+       <y>0</y>
+       <width>828</width>
+       <height>206</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Arial Black</family>
+       <pointsize>20</pointsize>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="text">
+      <string>Data Mesjid</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+     <property name="wordWrap">
+      <bool>true</bool>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="widgetQuranHadis" native="true">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>230</y>
+      <width>1320</width>
+      <height>200</height>
+     </rect>
+    </property>
+    <widget class="QLabel" name="labelQuranHadis">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>0</y>
+       <width>1320</width>
+       <height>200</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="pixmap">
+      <pixmap>../../proyek/zamzam/assets/background-quran.png</pixmap>
+     </property>
+    </widget>
+    <widget class="QLabel" name="labelNamaQuranHadis">
+     <property name="geometry">
+      <rect>
+       <x>40</x>
+       <y>0</y>
+       <width>1240</width>
+       <height>200</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Arial</family>
+       <pointsize>16</pointsize>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">color: rgb(255, 255, 255);</string>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::NoFrame</enum>
+     </property>
+     <property name="text">
+      <string>Quran Hadis</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+     <property name="wordWrap">
+      <bool>true</bool>
+     </property>
+     <property name="margin">
+      <number>10</number>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="widgetAgenda" native="true">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>430</y>
+      <width>1320</width>
+      <height>620</height>
+     </rect>
+    </property>
+    <widget class="QLabel" name="labelAgenda">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>0</y>
+       <width>1320</width>
+       <height>620</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="pixmap">
+      <pixmap>../../proyek/zamzam/assets/background-foto.png</pixmap>
+     </property>
+    </widget>
+    <widget class="QLabel" name="labelAgendaTeksBG">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>550</y>
+       <width>1320</width>
+       <height>70</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <kerning>false</kerning>
+      </font>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::NoFrame</enum>
+     </property>
+     <property name="lineWidth">
+      <number>9</number>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="pixmap">
+      <pixmap>../../proyek/zamzam/assets/background-agenda.png</pixmap>
+     </property>
+     <property name="scaledContents">
+      <bool>false</bool>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+     </property>
+    </widget>
+    <widget class="QLabel" name="labelAgendaTeks">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>550</y>
+       <width>1320</width>
+       <height>70</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Arial</family>
+       <pointsize>20</pointsize>
+      </font>
+     </property>
+     <property name="text">
+      <string>Agenda</string>
+     </property>
+     <property name="textFormat">
+      <enum>Qt::PlainText</enum>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+     </property>
+     <property name="wordWrap">
+      <bool>false</bool>
+     </property>
+     <property name="margin">
+      <number>10</number>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="widgetJam" native="true">
+    <property name="geometry">
+     <rect>
+      <x>1350</x>
+      <y>10</y>
+      <width>550</width>
+      <height>415</height>
+     </rect>
+    </property>
+    <widget class="QLabel" name="labelJam">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>0</y>
+       <width>550</width>
+       <height>415</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="pixmap">
+      <pixmap>../../proyek/zamzam/assets/background-jam.png</pixmap>
+     </property>
+    </widget>
+    <widget class="QLabel" name="labelJamSekarang">
+     <property name="geometry">
+      <rect>
+       <x>17</x>
+       <y>0</y>
+       <width>513</width>
+       <height>180</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Arial Black</family>
+       <pointsize>50</pointsize>
+      </font>
+     </property>
+     <property name="text">
+      <string>Jam</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+    </widget>
+    <widget class="QLabel" name="labelHari">
+     <property name="geometry">
+      <rect>
+       <x>150</x>
+       <y>140</y>
+       <width>258</width>
+       <height>40</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Arial</family>
+       <pointsize>16</pointsize>
+      </font>
+     </property>
+     <property name="text">
+      <string>Hari</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+    </widget>
+    <widget class="QLabel" name="labelTanggal">
+     <property name="geometry">
+      <rect>
+       <x>150</x>
+       <y>220</y>
+       <width>248</width>
+       <height>40</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Arial</family>
+       <pointsize>16</pointsize>
+      </font>
+     </property>
+     <property name="text">
+      <string>Tanggal</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+    </widget>
+    <widget class="QLabel" name="labelMenujuJadwal">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>345</y>
+       <width>550</width>
+       <height>70</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="pixmap">
+      <pixmap>../../proyek/zamzam/assets/background-menuju-jadwal.png</pixmap>
+     </property>
+    </widget>
+    <widget class="QLabel" name="labelTeksMenujuSholat">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>345</y>
+       <width>550</width>
+       <height>70</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Arial</family>
+       <pointsize>36</pointsize>
+      </font>
+     </property>
+     <property name="text">
+      <string>Teks Menuju Jadwal</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="widgetJadwal" native="true">
+    <property name="geometry">
+     <rect>
+      <x>1350</x>
+      <y>430</y>
+      <width>550</width>
+      <height>620</height>
+     </rect>
+    </property>
+    <widget class="QLabel" name="labelJadwal">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>0</y>
+       <width>550</width>
+       <height>620</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="pixmap">
+      <pixmap>../../proyek/zamzam/assets/background-jadwal.png</pixmap>
+     </property>
+    </widget>
+    <widget class="QLabel" name="labelJadwalImsyak">
+     <property name="geometry">
+      <rect>
+       <x>25</x>
+       <y>20</y>
+       <width>500</width>
+       <height>70</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="pixmap">
+      <pixmap>../../proyek/zamzam/assets/background-rincian-jadwal.png</pixmap>
+     </property>
+     <property name="scaledContents">
+      <bool>false</bool>
+     </property>
+    </widget>
+    <widget class="QLabel" name="labelJadwalSubuh">
+     <property name="geometry">
+      <rect>
+       <x>25</x>
+       <y>100</y>
+       <width>500</width>
+       <height>70</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="pixmap">
+      <pixmap>../../proyek/zamzam/assets/background-rincian-jadwal.png</pixmap>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+    </widget>
+    <widget class="QLabel" name="labelJadwalSyuruk">
+     <property name="geometry">
+      <rect>
+       <x>25</x>
+       <y>180</y>
+       <width>500</width>
+       <height>70</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="pixmap">
+      <pixmap>../../proyek/zamzam/assets/background-rincian-jadwal.png</pixmap>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+    </widget>
+    <widget class="QLabel" name="labelJadwalDhuhur">
+     <property name="geometry">
+      <rect>
+       <x>25</x>
+       <y>260</y>
+       <width>500</width>
+       <height>70</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="pixmap">
+      <pixmap>../../proyek/zamzam/assets/background-rincian-jadwal.png</pixmap>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+    </widget>
+    <widget class="QLabel" name="labelJadwalAshar">
+     <property name="geometry">
+      <rect>
+       <x>25</x>
+       <y>340</y>
+       <width>500</width>
+       <height>70</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="pixmap">
+      <pixmap>../../proyek/zamzam/assets/background-rincian-jadwal.png</pixmap>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+    </widget>
+    <widget class="QLabel" name="labelJadwalMaghrib">
+     <property name="geometry">
+      <rect>
+       <x>25</x>
+       <y>420</y>
+       <width>500</width>
+       <height>70</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="pixmap">
+      <pixmap>../../proyek/zamzam/assets/background-rincian-jadwal.png</pixmap>
+     </property>
+    </widget>
+    <widget class="QLabel" name="labelJadwalIsya">
+     <property name="geometry">
+      <rect>
+       <x>25</x>
+       <y>500</y>
+       <width>500</width>
+       <height>70</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="pixmap">
+      <pixmap>../../proyek/zamzam/assets/background-rincian-jadwal.png</pixmap>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+    </widget>
+    <widget class="QLabel" name="labelRincianJadwalImsyak">
+     <property name="geometry">
+      <rect>
+       <x>275</x>
+       <y>20</y>
+       <width>240</width>
+       <height>70</height>
+      </rect>
+     </property>
+     <property name="sizePolicy">
+      <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+       <horstretch>0</horstretch>
+       <verstretch>0</verstretch>
+      </sizepolicy>
+     </property>
+     <property name="font">
+      <font>
+       <family>Arial</family>
+       <pointsize>36</pointsize>
+      </font>
+     </property>
+     <property name="text">
+      <string>Jadwal Imsyak</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+     </property>
+    </widget>
+    <widget class="QLabel" name="labelRincianJadwalShubuh">
+     <property name="geometry">
+      <rect>
+       <x>275</x>
+       <y>100</y>
+       <width>240</width>
+       <height>70</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Arial</family>
+       <pointsize>36</pointsize>
+      </font>
+     </property>
+     <property name="text">
+      <string>Jadwal Shubuh</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+     </property>
+    </widget>
+    <widget class="QLabel" name="labelRincianJadwalSyuruk">
+     <property name="geometry">
+      <rect>
+       <x>275</x>
+       <y>180</y>
+       <width>240</width>
+       <height>70</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Arial</family>
+       <pointsize>36</pointsize>
+      </font>
+     </property>
+     <property name="text">
+      <string>Jadwal Syuruk</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+     </property>
+    </widget>
+    <widget class="QLabel" name="labelRincianJadwalDhuhur">
+     <property name="geometry">
+      <rect>
+       <x>275</x>
+       <y>260</y>
+       <width>240</width>
+       <height>70</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Arial</family>
+       <pointsize>36</pointsize>
+      </font>
+     </property>
+     <property name="text">
+      <string>TextLabel</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+     </property>
+    </widget>
+    <widget class="QLabel" name="labelRincianJadwalAshar">
+     <property name="geometry">
+      <rect>
+       <x>275</x>
+       <y>340</y>
+       <width>240</width>
+       <height>70</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Arial</family>
+       <pointsize>36</pointsize>
+      </font>
+     </property>
+     <property name="text">
+      <string>TextLabel</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+     </property>
+    </widget>
+    <widget class="QLabel" name="labelRincianJadwalMagrib">
+     <property name="geometry">
+      <rect>
+       <x>275</x>
+       <y>420</y>
+       <width>240</width>
+       <height>70</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Arial</family>
+       <pointsize>36</pointsize>
+      </font>
+     </property>
+     <property name="text">
+      <string>TextLabel</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+     </property>
+    </widget>
+    <widget class="QLabel" name="labelRincianJadwalIsya">
+     <property name="geometry">
+      <rect>
+       <x>275</x>
+       <y>500</y>
+       <width>240</width>
+       <height>70</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Arial</family>
+       <pointsize>36</pointsize>
+      </font>
+     </property>
+     <property name="text">
+      <string>TextLabel</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+     </property>
+    </widget>
+    <widget class="QLabel" name="labelJudulSubuh">
+     <property name="geometry">
+      <rect>
+       <x>30</x>
+       <y>100</y>
+       <width>240</width>
+       <height>70</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Arial</family>
+       <pointsize>36</pointsize>
+      </font>
+     </property>
+     <property name="text">
+      <string>SHUBUH</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="labelJudulImsak">
+     <property name="geometry">
+      <rect>
+       <x>30</x>
+       <y>20</y>
+       <width>240</width>
+       <height>70</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Arial</family>
+       <pointsize>36</pointsize>
+      </font>
+     </property>
+     <property name="text">
+      <string>IMSAK</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="labelJudulSyuruk">
+     <property name="geometry">
+      <rect>
+       <x>30</x>
+       <y>180</y>
+       <width>240</width>
+       <height>70</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Arial</family>
+       <pointsize>36</pointsize>
+      </font>
+     </property>
+     <property name="text">
+      <string>SYURUK</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="labelJudulDhuhur">
+     <property name="geometry">
+      <rect>
+       <x>30</x>
+       <y>260</y>
+       <width>240</width>
+       <height>70</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Arial</family>
+       <pointsize>36</pointsize>
+      </font>
+     </property>
+     <property name="text">
+      <string>DHUHUR</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label">
+     <property name="geometry">
+      <rect>
+       <x>30</x>
+       <y>340</y>
+       <width>240</width>
+       <height>70</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Arial</family>
+       <pointsize>36</pointsize>
+      </font>
+     </property>
+     <property name="text">
+      <string>ASHAR</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="labelJudulMaghrib">
+     <property name="geometry">
+      <rect>
+       <x>30</x>
+       <y>420</y>
+       <width>240</width>
+       <height>70</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Arial</family>
+       <pointsize>36</pointsize>
+      </font>
+     </property>
+     <property name="text">
+      <string>MAGHRIB</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="labelJudulIsya">
+     <property name="geometry">
+      <rect>
+       <x>30</x>
+       <y>500</y>
+       <width>240</width>
+       <height>70</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Arial</family>
+       <pointsize>36</pointsize>
+      </font>
+     </property>
+     <property name="text">
+      <string>ISYA</string>
+     </property>
+    </widget>
+   </widget>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
